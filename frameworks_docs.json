@@ -1,4 +1,4 @@
 {
-  "langchain": "LangChain is a framework for developing AI agents. It provides various tools for creating and managing agents, including a main class 'LangChainAgent' and utilities like 'lc_tool'.",
-  "crewai": "CrewAI is a framework for developing AI agents. It offers tools for creating and managing agents, including the main class 'CrewAIAgent' and utilities such as 'ca_tool'."
+  "langchain": "",
+  "crewai": ""
 }
