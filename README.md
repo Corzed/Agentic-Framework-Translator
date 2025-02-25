@@ -4,8 +4,8 @@
 The AI Agent Framework Translator is a tool designed to convert AI agents between different frameworks using AI-powered translation, making it easier for developers to switch frameworks without rewriting code.
 
 ## Supported Frameworks
-- LangChain  
-- CrewAI  
+- LangChain (Docs to be added)
+- CrewAI (Docs to be added)
 - More frameworks can be added by contributors!
 
 ## Features
