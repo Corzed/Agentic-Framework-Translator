@@ -9,7 +9,7 @@ The AI Agent Framework Translator is a tool designed to convert AI agents betwee
 - More frameworks can be added by contributors!
 
 ## Features
-- **AI-Powered Translation**: Uses OpenAI's chat completion API (via GPT-4) to perform accurate translations.
+- **AI-Powered Translation**: Uses OpenAI's chat completion API (via o3-mini-high) to perform accurate translations.
 - **Documentation Context**: Incorporates framework documentation from a JSON file to improve translation accuracy.
 - **Extensible Architecture**: Contributors can easily add support for new frameworks by updating `frameworks_docs.json` and adding custom translation logic in `translators.py`.
 - **Modular Design**: The code is split into separate files for ease of maintenance and contributions.
