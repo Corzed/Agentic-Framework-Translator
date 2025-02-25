@@ -17,8 +17,8 @@ The AI Agent Framework Translator is a tool designed to convert AI agents betwee
 ## Installation
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ai-agent-framework-translator.git
-   cd ai-agent-framework-translator
+   git clone https://github.com/Corzed/Agentic-Framework-Translator.git
+   cd Agentic-Framework-Translator
    ```
 2. Install dependencies:
    ```
