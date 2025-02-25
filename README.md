@@ -39,5 +39,5 @@ python translate.py --source langchain --target crewai --input agent_langchain.p
 ## Contribution Guidelines
 Contributions are welcome!
 - **Documentation**: Add or update framework documentation in the `frameworks_docs.json` file.
-- **Translation Logic**: Enhance or add custom translation logic in `translators.py`.
+- **Translation Logic**: Enhance translation logic in `translators.py`.
 - Please submit a pull request with your changes. For any questions, feel free to open an issue.
