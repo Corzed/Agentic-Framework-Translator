@@ -38,8 +38,8 @@ def ai_translate(source_framework, target_framework, agent_code, source_doc, tar
         {"role": "user", "content": prompt}
     ]
 
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
+    response = openai.chat.completions.create(
+        model="o3-mini-high",
         messages=messages,
         temperature=0.3,
         max_tokens=1500
@@ -57,9 +57,4 @@ def translate_agent(source_framework, target_framework, agent_code):
     source_doc = get_framework_doc(source_framework, docs)
     target_doc = get_framework_doc(target_framework, docs)
 
-    # For custom translations, contributors can add more conditions here
-    # For example:
-    # if source_framework.lower() == "langchain" and target_framework.lower() == "crewai":
-    #     return custom_langchain_to_crewai(agent_code, source_doc, target_doc)
-    # For now, we use the AI-powered translation for all conversions.
     return ai_translate(source_framework, target_framework, agent_code, source_doc, target_doc)
