@@ -6,6 +6,7 @@ The AI Agent Framework Translator is a tool designed to convert AI agents betwee
 ## Supported Frameworks
 - LangChain (Docs to be added)
 - CrewAI (Docs to be added)
+- OrchestrAI (Docs to be added)
 - More frameworks can be added by contributors!
 
 ## Features
